@@ -31,7 +31,7 @@ class NavbarPage extends Component {
       <MDBNavbar color="indigo" dark expand="md">
         <MDBNavbarBrand style={{ color: "white" }} center={true}>
           <Link to="/">
-            <strong className="black-text">Hi I am PraveenKumar</strong>
+            <strong className="black-text">Home of PraveenKumar</strong>
           </Link>
         </MDBNavbarBrand>
         <MDBHamburgerToggler
