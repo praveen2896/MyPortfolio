@@ -7,6 +7,7 @@ import Image3 from "../images/JavaImg.png"
 import Image2 from "../images/Node1Img.png"
 import Image1 from "../images/ReactImg.png"
 import Image4 from "../images/spring-boot.png"
+import Image6 from "../images/profile.jpg"
 import "./Home.css"
 
 const bigAvatar = {
@@ -19,11 +20,7 @@ const Home = () => {
   return (
     <div>
       <Grid container justify="center" alignItems="center">
-        <Avatar
-          alt="Remy Sharp"
-          src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-          style={bigAvatar}
-        />
+        <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
       </Grid>
       <Grid container justify="center" alignItems="center">
         <strong className="name">
