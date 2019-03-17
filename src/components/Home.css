@@ -1,0 +1,36 @@
+.name {
+  font-family: cursive;
+  color: indigo;
+}
+
+container {
+  background-color: white;
+}
+
+.skills-image {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.skills-description {
+  border-top: px solid black;
+  text-align: center;
+  padding: 10px;
+}
+/* .new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.movie-card,
+.new-movie-card {
+  border: 0px solid black;
+  width: 200px;
+  height: 240px;
+  position: relative;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}

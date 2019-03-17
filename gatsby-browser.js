@@ -8,3 +8,10 @@
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import "bootstrap-css-only/css/bootstrap.min.css"
 import "mdbreact/dist/css/mdb.css"
+
+import React from "react"
+import MyProvider from "./src/context/provider"
+
+export const wrapRootElement = ({ element }) => (
+  <MyProvider>{element}</MyProvider>
+)

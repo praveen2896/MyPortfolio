@@ -5,15 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
+import { graphql, StaticQuery } from "gatsby"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-import Example from "../components/Navs"
-import Header from "./header"
-import NavbarPage1 from "../components/customNav"
-import NavbarPage from "../components/New"
+import React from "react"
+import NavbarPage from "../components/Nav"
 import "./layout.css"
-import Scroll from "../components/scroll"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -29,9 +25,8 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <NavbarPage />
-        <div className="parallax" />
         <div
-          className="lay"
+          className="parallax"
           style={{
             margin: `0 auto`,
             maxWidth: "100%",
@@ -41,7 +36,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
         </div>
-        <div className="parallax" />
+
         <footer style={{ textAlign: "center" }}>
           © {new Date().getFullYear()},Copyright : Designed By{" "}
           <a href="https://www.gatsbyjs.org">Me</a>
