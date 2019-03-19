@@ -43,7 +43,10 @@ container {
   box-sizing: border-box;
   justify-content: center;
 }
-
+.Avatar1 .MuiAvatar-root-98 {
+  height: 150px;
+  width: 150px;
+}
 @media only screen and (max-width: 766px) {
   .Avatar1 .MuiAvatar-root-98 {
     height: 80px;
