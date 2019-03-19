@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 
 const defaultstate = {
-  profilename: "PraveenKumar",
+  profilename: "I am PraveenKumar",
   changeName: () => {},
 }
 
@@ -9,7 +9,7 @@ export const MyContext = React.createContext(defaultstate)
 
 export default class MyProvider extends Component {
   state = {
-    profilename: "PraveenKumar",
+    profilename: "I am PraveenKumar",
   }
   changeName = name => {
     let profilename = name

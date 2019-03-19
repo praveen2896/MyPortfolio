@@ -7,7 +7,13 @@ container {
   background-color: white;
 }
 
+.MuiGrid-justify-xs-center-18 {
+  justify-content: center;
+  padding-top: 15px;
+}
+
 .skills-image {
+  padding-top: 20px;
   height: 100%;
   background-size: cover;
   background-position: center center;
@@ -18,12 +24,7 @@ container {
   text-align: center;
   padding: 10px;
 }
-/* .new-movie-card {
-  font-size: 4em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+
 .movie-card,
 .new-movie-card {
   border: 0px solid black;
@@ -33,4 +34,25 @@ container {
   margin: 10px;
   display: flex;
   flex-direction: column;
+}
+
+.MuiGrid-container-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 766px) {
+  .Avatar1 .MuiAvatar-root-98 {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Avatar1 .MuiAvatar-root-98 {
+    height: 150px;
+    width: 150px;
+  }
 }

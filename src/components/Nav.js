@@ -9,6 +9,7 @@ import {
 import React, { Component } from "react"
 import "./Nav.css"
 import { MyContext } from "../context/provider"
+import Modal from "../components/modal"
 
 class NavbarPage extends Component {
   constructor(props) {
@@ -71,6 +72,10 @@ class NavbarPage extends Component {
 
                   <Link to="/Contact">
                     <i class="fas fa-envelope" /> ContactMe
+                  </Link>
+
+                  <Link to="/Contact">
+                    <Modal />
                   </Link>
                 </MDBNavbarNav>
               </MDBCollapse>

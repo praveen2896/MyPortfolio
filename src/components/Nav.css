@@ -4,14 +4,13 @@
   }
 }
 @media only screen and (max-width: 766px) {
-  ul {
+  .navbar-collapse ul {
     text-align: center;
   }
-  ul a {
+  .navbar-collapse a {
     padding: 25px;
   }
-
-  ul a:hover {
+  .navbar-collapse ul a:hover {
     background-color: aqua;
     border-radius: 15px;
     text-decoration: none;
@@ -35,13 +34,13 @@
   margin-left: -40px;
   text-align: center;
 } */
-ul a {
+.navbar-collapse ul a {
   color: white;
   padding-right: 15px;
   padding-left: 15px;
   text-decoration: none;
 }
-i {
+.navbar-collapse i {
   padding-right: 10px;
 }
 
