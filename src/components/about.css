@@ -21,9 +21,9 @@
 @media only screen and (max-width: 896px) {
   .div1 {
     padding-top: 25px;
-    padding-left: 40px;
+    padding-left: 10px;
   }
   .div2 {
-    padding-left: 40px;
+    padding-left: 10px;
   }
 }
