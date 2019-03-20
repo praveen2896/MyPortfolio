@@ -32,21 +32,17 @@ const Home = () => {
         </strong>
       </Grid>
       <Grid container justify="center" alignItems="center" />
-      <div
-        className="skills-description"
-        style={{ color: "aqua", paddingTop: "25px" }}
-      >
+      <div className="skills" style={{ color: "aqua", paddingTop: "25px" }}>
         My Skills
-      </div>
-      <Grid container justify="left" alignItems="center" className="Avatar1">
-        <Avatar alt="Remy Sharp" src={Image3} />
-        <Avatar alt="Remy Sharp" src={Image4} />
-        <Avatar alt="Remy Sharp" src={Image7} />
-        <Avatar alt="Remy Sharp" src={Image1} />
-        <Avatar alt="Remy Sharp" src={Image2} />
-        <Avatar alt="Remy Sharp" src={Image5} />
+        <Grid container justify="center" alignItems="center">
+          <Avatar alt="Remy Sharp" src={Image3} />
+          <Avatar alt="Remy Sharp" src={Image4} />
+          <Avatar alt="Remy Sharp" src={Image7} />
+          <Avatar alt="Remy Sharp" src={Image1} />
+          <Avatar alt="Remy Sharp" src={Image2} />
+          <Avatar alt="Remy Sharp" src={Image5} />
 
-        {/* <div className="movie-card">
+          {/* <div className="movie-card">
           <div
             className="skills-image"
             style={{
@@ -57,7 +53,9 @@ const Home = () => {
             React Js
           </div>
         </div> */}
-      </Grid>
+        </Grid>
+      </div>
+
       {/* <ModalPage />
       <Modal /> */}
     </div>
