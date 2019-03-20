@@ -52,13 +52,13 @@ class NavbarPage extends Component {
               >
                 <MDBNavbarNav right>
                   <Link
-                    to="/Home"
+                    to="/Blog"
                     onClick={() => {
-                      context.changeName("Home of PraveenKumar")
+                      context.changeName("Blog of PraveenKumar")
                     }}
                   >
-                    <i class="fas  fa-home " />
-                    Home
+                    <i class="fas  fa-rss " />
+                    Blog
                   </Link>
                   <Link
                     to="/About"
@@ -66,17 +66,22 @@ class NavbarPage extends Component {
                       context.changeName("About PraveenKumar")
                     }}
                   >
-                    <i class="fas  fa-home " />
+                    <i class="fas  fa-user " />
                     AboutMe
                   </Link>
 
-                  <Link to="/Contact">
+                  <Link
+                    to="/Contact"
+                    onClick={() => {
+                      context.changeName("My Contact details")
+                    }}
+                  >
                     <i class="fas fa-envelope" /> ContactMe
                   </Link>
 
-                  <Link to="/Contact">
+                  {/* <Link to="/Contact">
                     <Modal />
-                  </Link>
+                  </Link> */}
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>

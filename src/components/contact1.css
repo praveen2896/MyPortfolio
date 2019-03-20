@@ -1,0 +1,20 @@
+.contactdiv {
+  padding-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+}
+@media only screen and (max-width: 766px) {
+  .contactdiv {
+    padding-left: 0px;
+  }
+  .contactdiv .card {
+    margin-left: -82px;
+    padding-left: 14px;
+  }
+}
+@media only screen and (max-width: 896px) {
+  .contactdiv {
+    padding-left: 0px;
+  }
+}

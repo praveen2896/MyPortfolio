@@ -1,0 +1,30 @@
+.topdiv {
+  display: flex;
+  padding-top: 50px;
+}
+.div1 {
+  padding-left: 160px;
+}
+
+@media only screen and (max-width: 766px) {
+  .topdiv {
+    display: contents;
+  }
+  .div1 {
+    padding-left: 15px;
+  }
+  .div2 {
+    padding-bottom: 30px;
+    padding-top: 25px;
+  }
+}
+@media only screen and (max-width: 896px) {
+  .div1 {
+    padding-top: 25px;
+    padding-left: 50px;
+    width: 50%;
+  }
+  .div2 {
+    padding-left: 50px;
+  }
+}
