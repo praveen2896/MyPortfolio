@@ -75,7 +75,7 @@ const Layout = ({ children }) => (
           </div>
           <div className="copyrights" style={{ textAlign: "center" }}>
             © {new Date().getFullYear()},Copyright : Designed By{" "}
-            <a href="https://www.gatsbyjs.org">Me</a>
+            <a href="https://www.gatsbyjs.org">Me ❤️</a> built on Gatsby js
           </div>
         </footer>
       </>

@@ -27,7 +27,7 @@ export default class Profile extends Component {
             <MDBCardBody>
               <MDBCardTitle>PraveenKumar</MDBCardTitle>
               <MDBCardText>
-                Working as a Project Engineer in Wipro Technologies 
+                Working as a Project Engineer in Wipro Technologies
               </MDBCardText>
 
               <ul className="list-inline text-right list-unstyled ulist">
@@ -69,7 +69,7 @@ export default class Profile extends Component {
               <MDBCardText>
                 Hi 👋 ! I am Praveeen ,I love trying innovative idea via
                 websites in freetime and as a professional i am trying to
-                explore Spring microservices
+                explore Spring 🌱 microservices
               </MDBCardText>
               <MDBCardText>
                 I Am also a Traveller 🌲 as well as a Nature Lover 🏝️, More

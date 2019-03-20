@@ -23,7 +23,10 @@ export default class Contact1 extends Component {
               </MDBCardText>
               <MDBCardText>📱 : +919566398589</MDBCardText>
               <MDBCardText>📧: mpraveenkumarown@gmail.com</MDBCardText>
-
+              <MDBCardText>
+                Moreover Contact me on social Media also except Facebook 😂
+                <i class="fa fa-facebook-official" aria-hidden="true" />
+              </MDBCardText>
               <MDBCardText>
                 Note:
                 <br />
