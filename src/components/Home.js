@@ -37,7 +37,10 @@ const Home = () => {
         </strong>
       </Grid>
       <Grid container justify="center" alignItems="center" />
-      <div className="skills" style={{ color: "aqua", paddingTop: "25px" }}>
+      <div
+        className="skills"
+        style={{ color: "red", fontSize: "x-large", paddingTop: "25px" }}
+      >
         My Skills
       </div>
       <div className="skillsavatar">
