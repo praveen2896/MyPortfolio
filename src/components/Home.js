@@ -22,7 +22,12 @@ const bigAvatar = {
 const Home = () => {
   return (
     <div>
-      <Grid container justify="center" alignItems="center">
+      <Grid
+        container
+        justify="center"
+        alignItems="center"
+        style={{ paddingTop: "25px" }}
+      >
         <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
         <strong className="name">
           {" "}
