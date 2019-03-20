@@ -10,7 +10,7 @@
     padding-left: 0px;
     padding-right: 0px;
     margin: auto 0;
-    margin-left: 43px;
+    margin-left: 20px;
   }
   .contactdiv .card {
     margin-left: 0px;
@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width: 896px) {
   .contactdiv {
-    padding-left: 95px;
+    padding-left: 0px;
     padding-right: 0px;
   }
 }
