@@ -9,7 +9,6 @@
   .contactdiv {
     padding-left: 0px;
     padding-right: 0px;
-    width: 50%;
     margin: auto 0;
     margin-left: 43px;
   }
@@ -23,6 +22,5 @@
   .contactdiv {
     padding-left: 95px;
     padding-right: 0px;
-    width: 65%;
   }
 }
