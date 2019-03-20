@@ -6,7 +6,7 @@ import Image5 from "../images/HTML2.png"
 import Image3 from "../images/JavaImg.png"
 import Image2 from "../images/Node2.png"
 import Image1 from "../images/ReactImg.png"
-import Image4 from "../images/spring-boot.png"
+import Image4 from "../images/download.png"
 import Image6 from "../images/profile.jpg"
 import Image7 from "../images/javascript.png"
 import ModalPage from "../components/contact"
@@ -34,26 +34,14 @@ const Home = () => {
       <Grid container justify="center" alignItems="center" />
       <div className="skills" style={{ color: "aqua", paddingTop: "25px" }}>
         My Skills
-        <Grid container justify="center" alignItems="center">
-          <Avatar alt="Remy Sharp" src={Image3} />
-          <Avatar alt="Remy Sharp" src={Image4} />
-          <Avatar alt="Remy Sharp" src={Image7} />
-          <Avatar alt="Remy Sharp" src={Image1} />
-          <Avatar alt="Remy Sharp" src={Image2} />
-          <Avatar alt="Remy Sharp" src={Image5} />
-
-          {/* <div className="movie-card">
-          <div
-            className="skills-image"
-            style={{
-              backgroundImage: `url(${Image1})`,
-            }}
-          />
-          <div className="skills-description" style={{ color: "aqua" }}>
-            React Js
-          </div>
-        </div> */}
-        </Grid>
+      </div>
+      <div className="skillsavatar">
+        <img src={Image3} alt="Avatar" className="avatar" />
+        <img src={Image4} alt="Avatar" className="avatar" />
+        <img src={Image7} alt="Avatar" className="avatar" />
+        <img src={Image1} alt="Avatar" className="avatar" />
+        <img src={Image2} alt="Avatar" className="avatar" />
+        <img src={Image5} alt="Avatar" className="avatar" />
       </div>
 
       {/* <ModalPage />

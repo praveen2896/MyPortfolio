@@ -39,23 +39,26 @@ container {
   flex-direction: column;
 }
 
-.skills .MuiAvatar-root-98 {
-  height: 150px;
+.avatar {
+  vertical-align: middle;
   width: 150px;
+  height: 150px;
+  border-radius: 100px;
 }
-@media only screen and (max-width: 766px) {
-  .skills .jss98 {
-    width: 80px;
-    height: 80px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .skills .MuiAvatar-root-98 {
-    height: 150px;
-    width: 150px;
-  }
+
+.skillsavatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .name {
   padding-left: 15px;
   padding-right: 15px;
+}
+@media only screen and (max-width: 766px) {
+  .avatar {
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+  }
 }
