@@ -39,25 +39,18 @@ container {
   flex-direction: column;
 }
 
-/* .MuiGrid-container-1 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  justify-content: center;
-} */
-.MuiAvatar-root-98 {
+.skills .MuiAvatar-root-98 {
   height: 150px;
   width: 150px;
 }
 @media only screen and (max-width: 766px) {
-  .MuiAvatar-root-98 {
+  .skills .MuiAvatar-root-98 {
     height: 80px;
     width: 80px;
   }
 }
 @media only screen and (min-width: 768px) {
-  .MuiAvatar-root-98 {
+  .skills .MuiAvatar-root-98 {
     height: 150px;
     width: 150px;
   }
