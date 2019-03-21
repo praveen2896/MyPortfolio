@@ -2,19 +2,6 @@
   font-family: cursive;
   color: indigo;
 }
-.card {
-  display: flex;
-}
-.content {
-  flex: 1px 0px auto;
-}
-.details {
-  display: flex;
-  flex-direction: column;
-}
-.cover {
-  width: 200px;
-}
 
 container {
   background-color: white;

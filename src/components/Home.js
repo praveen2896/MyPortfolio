@@ -28,6 +28,24 @@ const Home = () => {
         alignItems="center"
         style={{ paddingTop: "25px" }}
       >
+        <div className="imagediv">
+          <img src={Image6} alt="Avatar" className="avatar" />
+        </div>
+
+        <strong className="name">
+          {" "}
+          Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
+          <br />
+          <Age />
+        </strong>
+      </Grid>
+
+      {/* <Grid
+        container
+        justify="center"
+        alignItems="center"
+        style={{ paddingTop: "25px" }}
+      >
         <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
         <strong className="name">
           {" "}
@@ -36,7 +54,8 @@ const Home = () => {
           <Age />
         </strong>
       </Grid>
-      <Grid container justify="center" alignItems="center" />
+      <Grid container justify="center" alignItems="center" /> */}
+
       <div
         className="skills"
         style={{ color: "red", fontSize: "x-large", paddingTop: "25px" }}
