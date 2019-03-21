@@ -7,7 +7,7 @@ import Image3 from "../images/JavaImg.png"
 import Image2 from "../images/Node2.png"
 import Image1 from "../images/ReactImg.png"
 import Image4 from "../images/download.png"
-import Image6 from "../images/first.jpg"
+import Image6 from "../images/profile.jpg"
 import Image7 from "../images/javascript.png"
 import ModalPage from "../components/contact"
 import Modal from "../components/modal"
@@ -15,8 +15,8 @@ import "./Home.css"
 
 const bigAvatar = {
   // margin: 10,
-  width: 200,
-  height: 200,
+  minWidth: 200,
+  minHeight: 200,
 }
 
 const Home = () => {
@@ -28,9 +28,7 @@ const Home = () => {
         alignItems="center"
         style={{ paddingTop: "25px" }}
       >
-        <div>
-          <img src={Image6} alt="Avatar" className="bigavatar" />
-        </div>
+        <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
