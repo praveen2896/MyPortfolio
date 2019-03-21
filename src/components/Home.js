@@ -6,7 +6,7 @@ import Image5 from "../images/HTML2.png"
 import Image3 from "../images/JavaImg.png"
 import Image2 from "../images/Node2.png"
 import Image1 from "../images/ReactImg.png"
-import Image4 from "../images/download.png"
+import Image4 from "../images/spring-boot1.png"
 import Image6 from "../images/profile.jpg"
 import Image7 from "../images/javascript.png"
 import ModalPage from "../components/contact"
@@ -28,7 +28,11 @@ const Home = () => {
         alignItems="center"
         style={{ paddingTop: "25px" }}
       >
-        <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
+        <Avatar
+          alt="Remy Sharp"
+          src="http://i68.tinypic.com/ei5f7k.jpg"
+          style={bigAvatar}
+        />
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
