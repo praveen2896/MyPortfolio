@@ -28,11 +28,12 @@ const Home = () => {
         alignItems="center"
         style={{ paddingTop: "25px" }}
       >
-        <Avatar
+        {/* <Avatar
           alt="Remy Sharp"
           src="http://i68.tinypic.com/ei5f7k.jpg"
           style={bigAvatar}
-        />
+        /> */}
+        <img src={Image6} alt="Avatar" className="avatar" />
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
