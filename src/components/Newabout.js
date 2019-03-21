@@ -20,45 +20,29 @@ const styles = {
   },
 }
 
-const ContactPage = props => {
+const MediaCard = props => {
   const { classes } = props
   return (
     <div className="Maincard">
-      <div className="cards2">
+      <div className="cards">
         <Card className="card1">
+          <CardMedia
+            className="media"
+            image={Image6}
+            title="Contemplative Reptile"
+          />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Contact Me 🧑
+            <Typography align="center" gutterBottom variant="h5" component="h2">
+              PraveenKumar
             </Typography>
-            <Typography component="p">
-              Hi 👋 ! , If you want to share anything , you can reach out me
-              anytime ⌚ ,find my contact details below:
+            <Typography gutterBottom component="h1">
+              Working as a Project Engineer 💻 in{" "}
+              <strong>Wipro Technologies </strong>
+              🌻
             </Typography>
+            <Typography>Experience:1 years 7 months</Typography>
           </CardContent>
-          <CardContent>
-            <Typography>
-              📱 : +919566398589 <br />
-              📧: mpraveenkumarown@gmail.com
-            </Typography>
-          </CardContent>
-          <CardContent>
-            {" "}
-            <Typography>
-              Moreover Contact me on social Media also except Facebook 😂
-              <i class="fa fa-facebook-official" aria-hidden="true" />
-            </Typography>
-          </CardContent>
-          <CardContent>
-            <Typography component="p">
-              Note:
-              <br />
-              Soon i will update my Contact page like write feedback to me 🤟
-            </Typography>
-          </CardContent>
-          <CardContent>
-            <Typography>Happy Coding!👍</Typography>
-          </CardContent>
-          .
+
           <CardActions>
             <Button size="small" color="primary">
               <a
@@ -90,12 +74,41 @@ const ContactPage = props => {
           </CardActions>
         </Card>
       </div>
+      <div className="cards2">
+        <Card className="card1">
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              PraveenKumar
+            </Typography>
+            <Typography component="p">
+              Hi 👋 ! I am Praveeen ,I love trying innovative idea via websites
+              in freetime and as a professional i am trying to explore Spring 🌱
+              microservices
+            </Typography>
+          </CardContent>
+          <CardContent>
+            <Typography component="p">
+              I Am also a Traveller 🌲 as well as a Nature Lover 🏝️, More
+              Recently i am addicted to React js as well as Gatsby js
+            </Typography>
+          </CardContent>
+          <CardContent>
+            <Typography>
+              I am planning to start a Blog along with My new site
+              iampraveen.netlify.com which is already you are in 😍
+            </Typography>
+          </CardContent>
+          <CardContent>
+            <Typography>Happy Coding!👍</Typography>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   )
 }
 
-ContactPage.propTypes = {
+MediaCard.propTypes = {
   classes: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(ContactPage)
+export default withStyles(styles)(MediaCard)

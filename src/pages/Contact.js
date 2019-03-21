@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Contact1 from "../components/contact1"
+import ContactPage from "../components/contact"
 import Layout from "../components/layout"
 
 export default class Contact extends Component {
@@ -23,7 +23,7 @@ export default class Contact extends Component {
             Alternate : 7010325109
             <br />
           </div> */}
-          <Contact1 />
+          <ContactPage />
         </div>
       </Layout>
     )

@@ -14,7 +14,7 @@ export default class Contact1 extends Component {
     return (
       <div>
         <MDBCol className="contactdiv">
-          <MDBCard style={{ width: "22rem" }}>
+          <MDBCard className="cardstyle" style={{ width: "21rem" }}>
             <MDBCardBody>
               <MDBCardTitle>Contact Me</MDBCardTitle>
               <MDBCardText>
