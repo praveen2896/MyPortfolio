@@ -22,25 +22,28 @@ const bigAvatar = {
 const Home = () => {
   return (
     <div>
-      <Grid
-        container
-        justify="center"
-        alignItems="center"
-        style={{ paddingTop: "25px" }}
-      >
+      {/* <div className="Maindiv">
         <div className="imagediv">
-          <img src={Image6} alt="Avatar" className="avatar" />
-        </div>
+          <img
+            src={Image6}
+            alt="Avatar"
+            style={{ height: "200px", width: "200px", borderRadius: "120px" }}
+          />
+          <strong className="name">
+            Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
+            <br />
+            <Age />
+          </strong>
+        </div> */}
+      {/* <div className="details">
+          <strong className="name">
+            Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
+            <br />
+            <Age />
+          </strong>
+        </div> */}
 
-        <strong className="name">
-          {" "}
-          Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
-          <br />
-          <Age />
-        </strong>
-      </Grid>
-
-      {/* <Grid
+      <Grid
         container
         justify="center"
         alignItems="center"
@@ -54,7 +57,7 @@ const Home = () => {
           <Age />
         </strong>
       </Grid>
-      <Grid container justify="center" alignItems="center" /> */}
+      <Grid container justify="center" alignItems="center" />
 
       <div
         className="skills"
