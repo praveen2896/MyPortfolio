@@ -28,11 +28,9 @@ const Home = () => {
         alignItems="center"
         style={{ paddingTop: "25px" }}
       >
-        <Avatar
-          alt="Remy Sharp"
-          src={Image6}
-          style={{ height: "200px", width: "200px" }}
-        />
+        <div>
+          <img src={Image6} alt="Avatar" className="bigavatar" />
+        </div>
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}

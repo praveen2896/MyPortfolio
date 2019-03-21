@@ -45,7 +45,11 @@ container {
   height: 150px;
   border-radius: 100px;
 }
-
+.bigavatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
 .skillsavatar {
   display: flex;
   flex-wrap: wrap;
