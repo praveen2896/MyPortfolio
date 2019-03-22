@@ -26,11 +26,11 @@ const MediaCard = props => {
     <div className="Maincard">
       <div className="cards">
         <Card className="card1">
-          {/* <CardMedia
+          <CardMedia
             className="media"
             image={Image6}
             title="Contemplative Reptile"
-          /> */}
+          />
           <CardContent>
             <Typography align="center" gutterBottom variant="h5" component="h2">
               PraveenKumar

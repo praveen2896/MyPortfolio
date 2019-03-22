@@ -15,8 +15,8 @@ import "./Home.css"
 
 const bigAvatar = {
   // margin: 10,
-  minWidth: 200,
-  minHeight: 200,
+  width: 200,
+  height: 200,
 }
 
 const Home = () => {
@@ -38,12 +38,7 @@ const Home = () => {
           </strong>
         </div>
       </div> */}
-      <Grid
-        container
-        justify="center"
-        alignItems="center"
-        style={{ paddingTop: "25px" }}
-      >
+      <Grid container justify="center" alignItems="center">
         <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
         <strong className="name">
           {" "}
