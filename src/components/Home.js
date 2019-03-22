@@ -35,11 +35,13 @@ const Home = () => {
         </div>
         <div container justify="center" alignItems="center" className="name">
           <strong>
-            Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
-            <br />
+            Hi I am PraveenKumar 😎 .<br />I Love Travelling 🏝️ and Building
+            websites 👨‍💻 <br />
             <div>
-              {" "}
-              <Age />
+              <span>
+                {" "}
+                <Age />
+              </span>
             </div>
           </strong>
         </div>

@@ -29,8 +29,10 @@ const Age = () => {
   })
   return (
     <div>
-      I am {Years} years {Days} days {Hours} hours {Minutes} minutes {Seconds}{" "}
-      seconds old
+      I am {Years} years {Days} days {Hours} hours {Minutes} minutes{" "}
+      <span style={{ position: "absolute" }}>{Seconds}</span>
+      {"   "}
+      <span style={{ paddingLeft: "30px" }}>seconds old</span>
     </div>
   )
 }
