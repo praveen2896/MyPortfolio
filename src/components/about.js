@@ -18,12 +18,12 @@ export default class Profile extends Component {
       <div className="topdiv" style={{ paddingTop: "50px" }}>
         <MDBCol className="div1">
           <MDBCard style={{ width: "22rem" }}>
-            <MDBCardImage
+            {/* <MDBCardImage
               className="img-fluid"
               src={Image6}
               style={{ height: "315px", width: "100%" }}
               waves
-            />
+            /> */}
             <MDBCardBody>
               <MDBCardTitle>PraveenKumar</MDBCardTitle>
               <MDBCardText>
