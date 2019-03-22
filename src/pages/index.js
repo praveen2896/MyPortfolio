@@ -5,7 +5,7 @@ import Newhome from "../components/Newhome"
 
 const IndexPage = () => (
   <Layout>
-    <Newhome />
+    <Home />
   </Layout>
 )
 

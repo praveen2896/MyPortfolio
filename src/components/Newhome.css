@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+}
+.cover {
+  width: 200px;
+}
+.content {
+  flex: 1px 0px auto;
+}
+.details {
+  display: flex;
+  flex-direction: columnl;
+}

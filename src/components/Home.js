@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <Grid container justify="center" alignItems="center">
-        <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} />
+        <Avatar alt="Remy Sharp" src={Image4} style={bigAvatar} />
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
