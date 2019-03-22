@@ -30,12 +30,11 @@ const Home = () => {
         </strong>
       </Grid> */}
       <div className="skillsavatar">
-        <Grid container justify="center" alignItems="center">
+        <div container justify="center" alignItems="center">
           <img src={Image6} alt="Avatar" className="bigavatar" />
-        </Grid>
-        <Grid container justify="center" alignItems="center">
-          <strong className="name">
-            {" "}
+        </div>
+        <div container justify="center" alignItems="center" className="name">
+          <strong>
             Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
             <br />
             <div>
@@ -43,7 +42,7 @@ const Home = () => {
               <Age />
             </div>
           </strong>
-        </Grid>
+        </div>
       </div>
       <div
         className="skills"
