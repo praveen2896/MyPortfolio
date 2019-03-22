@@ -29,20 +29,15 @@ const Home = () => {
             alt="Avatar"
             style={{ height: "200px", width: "200px", borderRadius: "120px" }}
           />
+        </div>
+        <div className="details">
           <strong className="name">
             Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
             <br />
             <Age />
           </strong>
-        </div> */}
-      {/* <div className="details">
-          <strong className="name">
-            Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
-            <br />
-            <Age />
-          </strong>
-        </div> */}
-
+        </div>
+      </div> */}
       <Grid
         container
         justify="center"
