@@ -3,63 +3,10 @@
   color: indigo;
 }
 
-container {
-  background-color: white;
-}
-
-.Maindiv {
-  margin: auto;
-  width: 50%;
-  border: 0px solid green;
-  padding: 10px;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.imagediv {
-  margin: auto;
-  width: 10%;
-  border: 0px solid green;
-  padding-top: 25px;
-  padding-left: 0px;
-}
-.details {
-  margin: auto;
-  width: 50%;
-  border: 0px solid green;
-  padding-top: 25px;
-}
-
-.MuiGrid-justify-xs-center-18 {
-  justify-content: center;
-  padding-top: 15px;
-}
-
-.skills-image {
-  padding-top: 20px;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
 .skills {
   border-top: 0px solid black;
   text-align: center;
   padding: 10px;
-}
-.skills .MuiAvatar-root-98 {
-  width: 150px;
-  height: 150px;
-}
-.movie-card,
-.new-movie-card {
-  border: 0px solid black;
-  width: 200px;
-  height: 240px;
-  position: relative;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .avatar {
