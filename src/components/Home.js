@@ -40,6 +40,7 @@ const Home = () => {
       </div> */}
       <Grid container justify="center" alignItems="center">
         {/* <Avatar alt="Remy Sharp" src={Image6} style={bigAvatar} /> */}
+        <img src={Image3} alt="Avatar" className="avatar" />
         <strong className="name">
           {" "}
           Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
