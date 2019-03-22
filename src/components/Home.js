@@ -38,7 +38,10 @@ const Home = () => {
             {" "}
             Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
             <br />
-            <Age />
+            <div>
+              {" "}
+              <Age />
+            </div>
           </strong>
         </Grid>
       </div>
