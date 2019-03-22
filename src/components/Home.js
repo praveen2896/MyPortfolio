@@ -20,7 +20,7 @@ const bigAvatar = {
 const Home = () => {
   return (
     <div>
-      <Grid container justify="center" alignItems="center">
+      {/* <Grid container justify="center" alignItems="center">
         <img src={Image3} alt="Avatar" className="avatar" />
         <strong className="name">
           {" "}
@@ -28,8 +28,10 @@ const Home = () => {
           <br />
           <Age />
         </strong>
-      </Grid>
-      <Grid container justify="center" alignItems="center" />
+      </Grid> */}
+      <div className="skillsavatar">
+        <img src={Image3} alt="Avatar" className="avatar" />
+      </div>
       <div
         className="skills"
         style={{ color: "red", fontSize: "x-large", paddingTop: "25px" }}
