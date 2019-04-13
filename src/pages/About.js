@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
-import MediaCard from "../components/About"
+import MediaCard from "../components/about"
 
 export default class About1 extends Component {
   render() {
