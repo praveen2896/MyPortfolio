@@ -1,12 +1,12 @@
-import React from "react"
-import Age from "../components/birth"
-import Image5 from "../images/HTML2.png"
-import Image3 from "../images/JavaImg.png"
-import Image7 from "../images/javascript.png"
-import Image2 from "../images/node1.png"
-import Image1 from "../images/ReactImg.png"
-import Image4 from "../images/spring_bot.png"
-import "./Home.css"
+import React from "react";
+import Age from "../components/birth";
+import Image5 from "../images/HTML2.png";
+import Image3 from "../images/JavaImg.png";
+import Image7 from "../images/javascript.png";
+import Image2 from "../images/node1.png";
+import Image1 from "../images/ReactImg.png";
+import Image4 from "../images/spring_bot.png";
+import "./Home.css";
 
 const bigAvatar = {
   // margin: 10,
@@ -18,15 +18,6 @@ const bigAvatar = {
 const Home = () => {
   return (
     <div>
-      {/* <Grid container justify="center" alignItems="center">
-        <img src={Image3} alt="Avatar" className="avatar" />
-        <strong className="name">
-          {" "}
-          Hi I am PraveenKumar .<br />I Love Travelling and Building websites{" "}
-          <br />
-          <Age />
-        </strong>
-      </Grid> */}
       <div className="skillsavatar">
         <div container justify="center" alignItems="center">
           <img

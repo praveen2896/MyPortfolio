@@ -10,6 +10,7 @@ import React, { Component } from "react"
 import "./Nav.css"
 import { MyContext } from "../context/provider"
 import Modal from "../components/modal"
+import { Helmet } from "react-helmet"
 
 class NavbarPage extends Component {
   constructor(props) {
@@ -24,6 +25,15 @@ class NavbarPage extends Component {
   render() {
     return (
       <div>
+        <MyContext.Consumer>
+          {context => (
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>{context.profilename}</title>
+              <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+          )}
+        </MyContext.Consumer>
         <MyContext.Consumer>
           {context => (
             <MDBNavbar color="indigo" dark expand="md">
