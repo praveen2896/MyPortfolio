@@ -9,7 +9,7 @@ import { MDBIcon } from "mdbreact"
 import PropTypes from "prop-types"
 import React from "react"
 import Image6 from "../images/profile.jpg"
-import "./About.css"
+import "./about.css"
 const styles = {
   card: {
     maxWidth: 345,
