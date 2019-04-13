@@ -1,19 +1,17 @@
-import Avatar from "@material-ui/core/Avatar"
-import Grid from "@material-ui/core/Grid"
 import React from "react"
 import Age from "../components/birth"
 import Image5 from "../images/HTML2.png"
 import Image3 from "../images/JavaImg.png"
-import Image2 from "../images/Node2.png"
-import Image1 from "../images/ReactImg.png"
-import Image4 from "../images/download.png"
-import Image6 from "../images/profile.jpg"
-import Image7 from "../images/javascript.png"
+import Image7 from "../images/Javascript.png"
+import Image2 from "../images/Node1.png"
+import Image1 from "../images/Reactimg.png"
+import Image4 from "../images/spring_bot.png"
 import "./Home.css"
 
 const bigAvatar = {
   // margin: 10,
   width: 200,
+
   height: 200,
 }
 
@@ -31,7 +29,13 @@ const Home = () => {
       </Grid> */}
       <div className="skillsavatar">
         <div container justify="center" alignItems="center">
-          <img src={Image6} alt="Avatar" className="bigavatar" />
+          <img
+            src={
+              "https://images.unsplash.com/photo-1555139356-4c9b9f3f28a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=282&q=80"
+            }
+            alt="Avatar"
+            className="bigavatar"
+          />
         </div>
         <div container justify="center" alignItems="center" className="name">
           <strong>

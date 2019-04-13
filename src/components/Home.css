@@ -1,7 +1,7 @@
 .name {
   font-family: cursive;
   font-size: 20px;
-  color: indigo;
+  color: lightyellow;
   padding-top: 65px;
   margin-left: 25px;
 }
@@ -24,9 +24,19 @@
   border-radius: 150px;
 }
 .skillsavatar {
-  padding-top: 30px;
+  /* padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+   */
+  padding-top: 30px;
+  display: -webkit-flex;
+  /* display: flex; */
+  /* flex-direction: column; */
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* padding-right: 50%; */
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -40,8 +50,8 @@
   .name {
     padding-top: 35px;
     padding-right: 20px;
-    color: aqua;
-    font-size: 28px;
+    color: gold;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 638px) {

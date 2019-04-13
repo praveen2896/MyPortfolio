@@ -6,11 +6,11 @@
  */
 
 import { graphql, StaticQuery } from "gatsby"
+import { MDBIcon } from "mdbreact"
 import PropTypes from "prop-types"
 import React from "react"
 import NavbarPage from "../components/Nav"
 import "./layout.css"
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -49,6 +49,7 @@ const Layout = ({ children }) => (
                   href="https://twitter.com/lucifierpraveen"
                   target="_blank"
                   className="p-2 fa-lg w-ic"
+                  rel="noopener noreferrer"
                 >
                   <MDBIcon fab icon="twitter" />
                 </a>
@@ -58,6 +59,7 @@ const Layout = ({ children }) => (
                   href="mailto:mpraveenkumarown@gmail.com"
                   target="_blank"
                   className="p-2 fa-lg w-ic"
+                  rel="noopener noreferrer"
                 >
                   <MDBIcon icon="envelope" />
                 </a>
@@ -67,6 +69,7 @@ const Layout = ({ children }) => (
                   href="http://github.com/praveen2896"
                   target="_blank"
                   className="p-2 fa-lg w-ic"
+                  rel="noopener noreferrer"
                 >
                   <MDBIcon fab icon="github" />
                 </a>
@@ -75,7 +78,8 @@ const Layout = ({ children }) => (
           </div>
           <div className="copyrights" style={{ textAlign: "center" }}>
             © {new Date().getFullYear()},Copyright : Designed By{" "}
-            <a href="https://www.gatsbyjs.org">Me ❤️</a> built on Gatsby js
+            <a href="https://www.gatsbyjs.org">Me </a>
+            <span role="img">❤️</span> built on Gatsby js
           </div>
         </footer>
       </>
