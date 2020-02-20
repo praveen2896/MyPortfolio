@@ -5,7 +5,7 @@ export default class Blogs extends Component {
   render() {
     return (
       <Layout>
-        <div>
+        <div style={{ paddingBottom: "20%" }}>
           <h1
             style={{ textAlign: "center", color: "white", paddingTop: "50px" }}
           >

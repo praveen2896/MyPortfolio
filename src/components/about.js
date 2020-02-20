@@ -39,7 +39,7 @@ const MediaCard = props => {
               <strong>Wipro Technologies </strong>
               🌻
             </Typography>
-            <Typography>Experience:1 years 7 months</Typography>
+            <Typography>Experience:2 years 5 months</Typography>
           </CardContent>
 
           <CardActions>

@@ -27,13 +27,14 @@ body {
   .parallax {
     height: 100%;
     min-height: -webkit-fill-available;
+    padding-bottom: "20%"
   }
 
-  footer {
+  /* footer {
     height: 110px;
     display: flex;
     flex-direction: column;
-  }
+  } */
 }
 @media only screen and (min-width: 768px) {
   .parallax {
@@ -45,6 +46,9 @@ body {
   }
   footer {
     height: 90px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 }
 
