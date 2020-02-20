@@ -45,9 +45,9 @@ const Home = () => {
       <div className="skillsavatar">
         <img src={Image3} alt="Avatar" className="avatar" />
         <img src={Image4} alt="Avatar" className="avatar" />
-        <img src={Image7} alt="Avatar" className="avatar" />
+        {/* <img src={Image7} alt="Avatar" className="avatar" /> */}
         <img src={Image1} alt="Avatar" className="avatar" />
-        <img src={Image2} alt="Avatar" className="avatar" />
+        {/* <img src={Image2} alt="Avatar" className="avatar" /> */}
         <img src={Image5} alt="Avatar" className="avatar" />
       </div>
     </div>
