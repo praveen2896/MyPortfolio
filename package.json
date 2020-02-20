@@ -47,5 +47,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "**/react-router-dom": "5.0.0"
   }
 }
